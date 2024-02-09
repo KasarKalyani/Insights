@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+https://insights-red.vercel.app URL to site.
 
-## Getting Started
+But due to some constrins some of the functionalities like ask the question doesn't work 
+May be because it need memory to store response
 
-First, run the development server:
+Pull code on local.
+give all necessary keys in .env
+Run npm run dev
+Sign up (if new user)
+Go to journal page add new entry
+<img width="1434" alt="Screenshot 2024-02-09 at 2 38 52 PM" src="https://github.com/KasarKalyani/Insights/assets/86671511/46fd400d-ad24-4764-9d97-519a7e6bcb4a">
+Write about your day. check analysis
+<img width="1434" alt="Screenshot 2024-02-09 at 2 38 43 PM" src="https://github.com/KasarKalyani/Insights/assets/86671511/7600bb7c-b8ad-48af-a0c6-77e6de115317">
+<img width="1434" alt="Screenshot 2024-02-09 at 2 38 14 PM" src="https://github.com/KasarKalyani/Insights/assets/86671511/84f4e81e-c9e2-4d29-9231-97a9113b03da">
+On journal page use Ask the question section to find out anything from all entries
+<img width="1319" alt="Screenshot 2024-02-09 at 2 41 58 PM" src="https://github.com/KasarKalyani/Insights/assets/86671511/0bd1412f-092b-41fe-8d90-a6d1f6b02855">
+Enjoy playing around!!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Apllications Used
+Clerk (Sign in functionalities)
+Render/Postgres (Database)
+Prisma (Database connector)
+OpenAI (AI functionalities)
+langchain (Doc creation)
+Vercel (deployment)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
